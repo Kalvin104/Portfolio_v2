@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Wickham Portfolio Site</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            <p>James Wickham</p>
+            <div id="socials-container">
+                <!-- <img onclick="location.href='https://github.com/kalvin104'" class="icon" src="./assets/github-seeklogo.svg" alt="Github"></img> -->
+                <img onclick="location.href='https://linktree.com/beanobeans'" class="icon" src="./assets/linktree-seeklogo.svg" alt="Linktree"></img>
+                <img onclick="location.href='https://instagram.com/beanobeans'" class="icon" src="./assets/Instagram_logo_2016.svg" alt="Instagram"></img>
+            </div>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#artists">Artists</a></li>
+                <li><a href="#guitarlessons">Guitar Lessons</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">
+            <p>James Wickham</p>
+            <div id="socials-container">
+                <!-- <img onclick="location.href='https://github.com/kalvin104'" class="icon" src="./assets/github-seeklogo.svg" alt="Github"></img> -->
+                <img onclick="location.href='https://linktree.com/beanobeans'" class="icon" src="./assets/linktree-seeklogo.svg" alt="Linktree"></img>
+                <img onclick="location.href='https://instagram.com/beanobeans'" class="icon" src="./assets/Instagram_logo_2016.svg" alt="Instagram"></img>
+            </div>
+        </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#artists" onclick="toggleMenu()">Artists</a></li>
+                <li><a href="#guitarlessons" onclick="toggleMenu()">Guitar Lessons</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img id="profilepic" src="./assets/profilepic2.jpg" alt="J W Profile Pic"/>
+        </div>
+        <div class="section_text">
+            <p class="section_text_p2">Guitarist / Vocalist / Producer</p>
+            <h2>Based in the South West UK / Bristol</h2>
+
+        </div>
+        <img src="./assets/downarrow.png" alt="Arrow Icon" class="icon arrow2" onclick="location.href='./#about'">
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img class="about-pic" src="./assets/profilepic.jpg" alt="Profile Picture"/>
+            </div>
+            <div class="about-details-container">
+                <div class="text-container">
+                    <p>James Wickham is a professional Guitarist and Producer / Audio Engineer based in Bristol.
+
+                        Having spent most of his life playing both electric and acoustic guitar and exploring a wide-variety of genres, particularly in the Rock and Metal genres, James fell in love with his passion of live music. Having attending Reading and Download festival as a teenager and then countless small local gigs across the country, James fell in love live music performances and interesting soundscapes.
+                        
+                        With 15+ years experience studying and playing guitar, James has spent his years in Bristol performing all around the city at local venues such as the Exchange, Crofters Rights, Ill Repute and many more.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <img src="./assets/downarrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <iframe id="feature-video" width="1164" height="655" src="https://www.youtube.com/embed/HS-4EdrGsf8" title="Scarlett Fagan - Woodbox Session (Bristol Live Music)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <section id="artists">
+        <h1 class="title">Artists</h1>
+        <p class="section_text_p1">I've worked with</p>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                        <h2>Scarlett Fagan</h2>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/6OGcowOdSmSx7liny5gPix?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <br />
+                    <h2>Sarah Ann Ree</h2>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4XCq5RPPCzYsNBzCJymZs5?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+        
+        <img src="./assets/downarrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+    <section id="productions">
+        <h1 class="title">My Productions</h1>
+        <p class="section_text_p1">Engineered / Produced</p>
+        <div class="experience-details-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                </div>
+                <h2 class="experience-sub-title project-title">Fools Teeth</h2>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4V2x11ZH6maSJYtUnCfs1y?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    <section id="guitarlessons">
+        <h1 class="title">Guitar Lessons</h1>
+        <h2>Rate: £35ph</h2>
+        <p>I am available for 1:1 guitar lessons. I can conduct these lessons in person or remotely via Discord. I have experience teaching both absolute beginners and intermediate players. <br><br> During lessons I will go over any technique issues that may be causing limitations in playing. However, I will actively encourage to lean into their own style and uniqueness of their playing, as everyone has their own voice on the instrument.<br><br></p>
+        <h2 class="subtitle">Key focus</h2>
+        <br>
+        <ul id="lesson-list">
+            <li>Improvisation</li>
+            <li>Rock</li>
+            <li>Blues</li>
+            <li>Metal / Prog Metal</li>
+            <li>Gypsy Jazz and 'La Pompe' style playing</li>
+            <li>Fingerstyle (Folk / Indie genres)</li>
+            <li>Slide guitar / 'Behind the slide' technique</li>
+            <li>Cover songs and working on original material</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <img src="./assets/emailicon.svg" alt="Email icon" class="icon contact-icon email-icon" />
+            <p><a href="mailto:jpwickham@hotmail.co.uk">jpwickham@hotmail.co.uk</a></p>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#music">Music</a></li>
+                    <li><a href="#tuition">Tuition</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p id="copyright">Copyright &#169 2024 James Wickham. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
